@@ -1,0 +1,883 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+@media  screen and (min-width:1024px)
+{
+.logopart{height: 174px;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;}
+.logo{
+width: 12%;
+display: flex;
+}
+.logo img{
+    
+}
+.tabs{
+    display: flex;
+    display: show !important;
+    column-gap: 7vh;
+}
+.tabs a{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: -webkit-body;
+    text-decoration: none;
+   
+}
+#bt1{
+    display: none;
+}
+}
+/* ---------------------------------------------------------------------------- */
+@media  screen and (min-width:640px) and (max-width:1024px)
+{
+.logopart{
+    height: 140px;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;}
+.logo{
+
+width: 9%;
+display: flex;
+}
+.logo img{
+    
+}
+.tabs{
+    display: flex;
+    column-gap: 7vh;
+    display: show !important;
+}
+.tabs a{
+    font-size: 10px;
+    font-weight: 700;
+    font-family: -webkit-body;
+    text-decoration: none;
+    
+}
+#bt1{
+    display: none;
+}
+}
+/* ---------------------------------------------------------------------------- */
+@media  screen and (min-width:360px) and (max-width:640px)
+{
+    .logopart{
+        height: 70px;
+        background:white;
+        display: flex;flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;}
+    .logo{
+    
+    width: 21%;
+    display: flex;
+    }
+    .logo img{
+        
+    }
+    .tabs{
+        display: flex;
+        display: none;
+        column-gap: 2vh;
+    }
+    .tabs a{
+        font-size: 5px;
+        font-weight: 600;
+        font-family: -webkit-body;
+        text-decoration: none;
+        
+    }
+    .tab{
+        display: block;
+        background: white;
+    
+    }
+    .tab a{
+        text-decoration: none;
+        font-size: 13px;
+        border: 1px solid;
+        display: block;
+        font-weight: 700;
+        text-align: center;
+    }
+    #bt1{
+        width: 7%;
+        background: transparent;
+        border: none;
+    }
+    #bt1 img{
+        width: 118%;
+        border: 1px solid;
+    }
+}
+/* ---------------------------------------------------------------------------- */
+@media  screen and (min-width:150px) and (max-width:360px)
+{
+    .logopart{
+        height: 50px;
+        background:white;
+        display: flex;flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;}
+    .logo{
+    
+    width: 13%;
+    display: flex;
+    }
+    .logo img{
+        
+    }
+    .tabs{
+        display: flex;
+        display: none;
+        column-gap: 2vh;
+    }
+    .tabs a{
+        font-size: 3px;
+        font-weight: 600;
+        font-family: -webkit-body;
+        text-decoration: none;
+        
+    }
+    .tab{
+        display: block;
+        background: white;
+    
+    }
+    .tab a{
+        text-decoration: none;
+        font-size: 13px;
+        border: 1px solid;
+        display: block;
+        font-weight: 700;
+        text-align: center;
+    }
+    #bt1{
+        width: 7%;
+        background: transparent;
+        border: none;
+    }
+    #bt1 img{
+        width: 118%;
+        border: 1px solid;
+    }
+}
+/* ----------------------------------------------------------- */
+/* .tab{
+    display: block;
+    background: white;
+
+}
+.tab a{
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+#bt1{
+    width: 7%;
+    background: transparent;
+    border: none;
+}
+#bt1 img{
+    width: 118%;
+    border: 1px solid;
+} */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------*/
+@media screen and (min-width:1008px) and (max-width:10000px){
+.bannerpart{
+    background-image: url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.banner h1{
+    color: white;
+    text-shadow: 4px 6px #0000004f;
+    font-size: 30px;
+}
+.banner p{
+    color: white;
+    font-size: 24px;
+    
+}
+.banner button{
+    
+}
+}
+/* -----------------------------------------------------------------------------*/
+@media screen and (min-width:640px) and (max-width:1008px){
+    .bannerpart{
+        background-image: url(banner.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        align-items: center;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .banner h1{
+        color: white;
+        text-shadow: 4px 6px #0000004f;
+        font-size: 24px;
+    }
+    .banner p{
+        color: white;
+        
+        font-size: 20px;
+    }
+    .banner button{
+        
+    }
+    }
+    /* -----------------------------------------------------------------------------*/
+@media screen and (min-width:360px) and (max-width:640px){
+    .bannerpart{
+        background-image: url(banner.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        align-items: center;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .banner h1{
+        color: white;
+        text-shadow: 4px 6px #0000004f;
+        font-size: 17px;
+        text-align: center;
+    }
+    .banner p{
+        color: white;
+        font-size: 13px;
+        
+    }
+    .banner button{
+        width: 28%;
+    font-size: 12px;
+        
+    }
+    }
+
+/* -----------------------------------------------------------------------------*/
+@media screen and (min-width:150px) and (max-width:360px){
+    .bannerpart{
+        background-image: url(banner.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        align-items: center;
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .banner h1{
+    color: white;
+    text-shadow: 4px 6px #0000004f;
+    font-size: 13px;
+    text-align: center;
+    }
+    .banner p{
+        font-size: 12px;
+    text-align: center;
+    color: white;
+        
+    }
+    .banner button{
+        width: 46%;
+    font-size: 7px;
+        
+    }
+    }
+/* --------------------------------------------------------------------------- */
+
+
+/* @media screen and (max-width:767px) {
+    .navTabs{
+        display: none !important;
+    }
+} */
+/* --------------------------------------------------------------------------- */
+
+@media screen and (min-width:1024px){
+.mn{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+}
+.matter{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 78%;
+    align-items: center;
+}
+.matter hr{
+    
+    width: 15vh;
+    color: red;
+
+    
+}
+.matter h2{
+    font-weight: 700;
+   font-size: 24px;
+   letter-spacing: 2px;
+}
+.matter p{
+    font-weight: 400;
+   color: #777;
+   font-family: roboto;
+   font-size: 15px;
+    text-align: center;
+}
+.cardbody{
+
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.card{
+    
+    display: flex;
+    justify-content: left;
+    width: 31%;
+}
+.card img{
+    
+}
+.card h4{
+    
+    /*! font-size: 14px; */
+    font-weight: 700;
+    font-size: 14px;
+    color: #212529;
+    text-decoration: none;
+    margin: 3vh;
+}
+.card p{
+    font-weight: 400;
+  color: #777;
+  font-family: roboto;
+  font-size: 15px;
+  margin: 0vh 3vh;
+}
+.card h3{
+    
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 5vh 3vh;
+    color: #f00;
+}
+}
+
+/* ----------------------------------------------------------------- */
+
+@media screen and (min-width:640px) and (max-width:1024px){
+    .mn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-top: 0px !important;
+    }
+    .matter{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 98%;
+        align-items: center;
+    }
+    .matter hr{
+        
+        width: 15vh;
+        color: red;
+        
+    }
+    .matter h2{
+        font-weight: 700;
+       font-size: 19px;
+       letter-spacing: 2px;
+    }
+    .matter p{
+        font-weight: 400;
+       color: #0000008f;
+       font-family: roboto;
+       font-size: 11px;
+        text-align: center;
+    }
+    .cardbody{
+    
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .card{
+        
+        display: flex;
+        justify-content: left;
+        width: 31%;
+    }
+    .card img{
+        
+    }
+    .card h4{
+        
+        /*! font-size: 14px; */
+        font-weight: 700;
+        font-size: 14px;
+        color: #212529;
+        text-decoration: none;
+        margin: 4vh;
+    }
+    .card p{
+        font-weight: 400;
+      color: #777;
+      font-family: roboto;
+      font-size: 11px;
+      margin: 0vh 3vh;
+    }
+    .card h3{
+        
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        margin: 5vh 3vh;
+        color: #f00;
+    }
+    }
+/*----------------------------------------------------------------  */
+@media screen and (min-width:320px) and (max-width:639px){
+    .mn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-top: 0px !important;
+    }
+    .matter{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*! width: 127%; */
+        align-items: center;
+        /*! margin: 0px !important; */
+        width: 86vw;
+    }
+    .matter hr{
+        
+        width: 15vh;
+        color: red;
+        
+    }
+    .matter h2{
+        font-weight: 700;
+       font-size: 15px;
+       letter-spacing: 2px;
+    }
+    .matter p{
+        font-weight: 400;
+       color: #0000008f;
+       font-family: roboto;
+       font-size: 11px;
+        text-align: justify;
+    }
+    .cardbody{
+    
+        /*! display: flex; */
+        justify-content: space-around;
+        /*! width: 125%; */
+        margin: 0px !important;
+        /*! flex-direction: column; */
+        width: 87vw;
+    }
+    .card{
+        
+        /*! display: flex; */
+        justify-content: left;
+        width: 101%;
+        /*! flex-direction: column; */
+        /*! display: block; */
+        margin: 4vh auto;
+    }
+    .card img{
+        
+    }
+    .card h4{
+        
+        /*! font-size: 14px; */
+        font-weight: 700;
+        font-size: 14px;
+        color: #212529;
+        text-decoration: none;
+        margin: 4vh;
+    }
+    .card p{
+        font-weight: 400;
+      color: #777;
+      font-family: roboto;
+      font-size: 11px;
+      margin: 0vh 3vh;
+    }
+    .card h3{
+        
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        margin: 5vh 3vh;
+        color: #f00;
+    }
+    .hr{
+        width: 19vh;
+  height: 2px;
+  background: red;
+  border-radius: 87px;
+  margin: 6px !important;
+    }
+    }
+/*-------------------------------------------------------------  */
+@media screen and (min-width:150px) and (max-width:320px){
+    .mn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        /*! margin-top: 0px !important; */
+    }
+    .matter{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /*! width: 127%; */
+        align-items: center;
+        /*! margin: 0px !important; */
+        width: 86vw;
+    }
+    .matter hr{
+        
+        width: 15vh;
+        color: red;
+        
+    }
+    .matter h2{
+        font-weight: 700;
+       font-size: 15px;
+       letter-spacing: 2px;
+    }
+    .matter p{
+        font-weight: 400;
+       color: #0000008f;
+       font-family: roboto;
+       font-size: 11px;
+        text-align: justify;
+    }
+    .cardbody{
+    
+        /*! display: flex; */
+        justify-content: space-around;
+        /*! width: 125%; */
+        margin: 0px !important;
+        /*! flex-direction: column; */
+        width: 87vw;
+    }
+    .card{
+        
+        /*! display: flex; */
+        justify-content: left;
+        width: 101%;
+        /*! flex-direction: column; */
+        /*! display: block; */
+        margin: 4vh auto;
+    }
+    .card img{
+        
+    }
+    .card h4{
+        
+        /*! font-size: 14px; */
+        font-weight: 700;
+        font-size: 14px;
+        color: #212529;
+        text-decoration: none;
+        margin: 4vh;
+    }
+    .card p{
+        font-weight: 400;
+      color: #777;
+      font-family: roboto;
+      font-size: 11px;
+      margin: 0vh 3vh;
+    }
+    .card h3{
+        
+        font-size: 12px;
+        font-weight: 700;
+        text-decoration: none;
+        margin: 5vh 3vh;
+        color: #f00;
+    }
+    .hr{
+        width: 19vh;
+  height: 2px;
+  background: red;
+  border-radius: 87px;
+  margin: 6px !important;
+    }
+    }
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+.help{
+
+    height: 180px;
+    background: #00000014;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help center{
+    
+}
+.help h4{
+    
+    font-size: 15px;
+    font-weight: 700;
+}
+.help h4 a{
+    
+    color: red;
+    text-decoration: none;
+}
+.help button{
+    
+    width: 100%;
+    font-weight: 600;
+    margin: 3vh 0vh;
+    font-size: 12px;
+}
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+@media screen and (min-width:1024px){
+.contact{
+
+    height: 190px;
+    background: #091b29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h5{
+    
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.contact p{
+    
+    color: #777;
+    margin: 0px;
+    /*! font-size: 12px; */
+    font-size: 17px;
+    font-weight: 500;
+}
+.contact p img{
+    
+    /*! color: black; */
+    /*! background: transparent; */
+    /*! size: ; */
+    scale: 0.6;
+}
+.contact h6{
+    color: #777;
+  margin: 2px;
+   
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact h1{
+    
+}
+.contact h1 img{
+    
+    scale: 0.7;
+}
+}
+
+/* --------------------------------------------------------------------------- */
+@media screen and (min-width:640px) and (max-width:1024px){
+    .contact{
+    
+        height: 180px;
+        background: #091b29;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h5{
+        
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+    }
+    .contact p{
+        
+        color: #777;
+        margin: 0px;
+        /*! font-size: 12px; */
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .contact p img{
+        
+        /*! color: black; */
+        /*! background: transparent; */
+        /*! size: ; */
+        scale: 0.6;
+    }
+    .contact h6{
+        color: #777;
+      margin: 4px;
+       
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .contact h1{
+        
+    }
+    .contact h1 img{
+        
+        scale: 0.7;
+    }
+    }
+
+    /* --------------------------------------------------------------------------- */
+@media screen and (min-width:320px) and (max-width:640px){
+    .contact{
+    
+        height: 180px;
+        background: #091b29;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact h5{
+        
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .contact p{
+        
+        color: #777;
+        margin: 0px;
+        /*! font-size: 12px; */
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .contact p img{
+        
+        /*! color: black; */
+        /*! background: transparent; */
+        /*! size: ; */
+        scale: 0.6;
+    }
+    .contact h6{
+        color: #777;
+      margin: 9px;
+       
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .contact h1{
+        
+    }
+    .contact h1 img{
+        
+        scale: 0.7;
+    }
+    }
+
+
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------- */
+
+.copyright{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05111d;
+}
+.copyright p{
+    color: #777;
+    margin: 0px;
+}
